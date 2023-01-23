@@ -1,0 +1,398 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+ol,
+li{
+    list-style:none;
+}
+
+img{
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+
+.wrapper{
+    overflow-x:hidden;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column ;
+}
+
+
+h1{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+html,
+body{
+    
+    overflow-x:hidden;
+    font-weight:400;
+    font-size:18px;
+    line-height:30px;
+    font-family: 'Montserrat', sans-serif;
+    color:#3096df;
+}
+
+.header__page{
+    margin-top: 38px;
+    z-index: 50;
+
+}
+
+._container{
+    min-width:1200px;
+    margin:0px auto;
+    padding: 0px 15px;
+    box-sizing: content-box;
+
+}
+
+.header__container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu__list{
+    display: flex;
+
+}
+
+.menu__link{
+    font-size: 16px;
+    line-height: 20px;
+    color:#241504;
+}
+
+.logo{
+    margin:0px 89px 0px 0px;
+    text-shadow: -1px 0 rgb(12, 10, 10), 0 1px rgb(12, 10, 10), 1px 0 rgb(12, 10, 10), 0 -1px rgb(12, 10, 10);
+}
+
+.menu__list >*:not(:last-child){
+    margin-right:26px;
+}
+
+.page__block{
+    position: relative;
+    left:140px;
+    margin-top:94px;
+}
+
+.main-block{
+    display: flex;
+    flex-direction:column;
+    z-index:2;
+}
+
+.main-block>div:not(:last-child){
+    margin-bottom:24px;
+
+}
+
+.page__title{
+    max-width:534px;
+    text-shadow: -1px 0 rgb(12, 10, 10), 0 1px rgb(12, 10, 10), 1px 0 rgb(12, 10, 10), 0 -1px rgb(12, 10, 10);
+}
+
+.page__text{
+    max-width:493px;
+}
+
+.page-block__link{
+    width:309px;
+    height:74px;
+    background-color: #CC8B86;
+    padding: 25px 65px;
+    
+}
+
+.page__link{
+    font-size:20px;
+    line-height:24px;
+    color: #533738;
+
+}
+
+._ibg{
+    position: relative;
+}
+
+._ibg img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    
+}
+
+.cover{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.page_us{
+    max-width: 1033px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.page_us-1{
+    position: absolute;
+    top: 625px;
+    background-color: #E5E5E5;
+    width: 100%;
+}
+
+.about_us{
+    display: flex;
+}
+
+.img_about-us{
+    margin-right: 23px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.text_about-us{
+    max-width: 528px;
+}
+
+.page_us-title{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 65px;
+}
+
+.page__projects{
+    height: 20px;
+}
+
+
+.page__project{
+    position: absolute;
+    top: 1325px;
+    background-color: #8D7370;
+    width: 100%;
+    height: 20px;
+}
+
+.page__portfolio{
+    position: absolute;
+    top:1345px;
+    background-color: #E5E5E5;
+    width: 100%;
+}
+.portfolio-1{
+    padding:65px 100px 142px 100px;
+}
+.page__portfolio_title{
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+.title{
+    margin-bottom: 40px;
+    text-shadow: -1px 0 rgb(12, 10, 10), 0 1px rgb(12, 10, 10), 1px 0 rgb(12, 10, 10), 0 -1px rgb(12, 10, 10);
+}
+.image__portfolio{
+    display: flex;
+    flex-wrap:wrap;
+    gap:20px;
+    max-width: 1300px;
+}
+
+.img-1{
+    max-width: 488px;
+}
+.img-2{
+    max-width: 600px;
+}
+.page__info{
+    background-color: #E2C4BA;
+    width: 100%;
+}
+
+.team-title{
+    font-size: 40px;
+    color:#533738;
+    text-align: center;
+    padding-top:50px;
+    margin-bottom: 42px;
+}
+.page__team_title{
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#792d25;
+}
+.image__team{
+    display: flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.img-11{
+    max-width: 1000px;
+    padding-left: 200px;
+}
+.img-22{
+    max-width: 700px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+.page-team{
+    top:2100px;
+    width: 100%;
+    position: absolute;
+    background-color: #E2C4BA;  
+}
+
+.page__work_title{
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#792d25;
+}
+
+.page-fb{
+    top:3940px;
+    width: 100%;
+    position: absolute;
+    background-color: #E5E5E5;
+}
+.fb-body{
+    display: block;
+    max-width: 900px;
+    margin-left: 180px;
+    padding-bottom: 20px;
+}
+
+.fb-text{
+    text-align: center;
+    margin-right: 20px;
+}
+
+.fb-text>p{
+    line-height: 30px;
+}
+
+.fb-1{
+    max-width: 200px;
+}
+
+.clients{
+    background-color: #8D7370;
+    position: absolute;
+    top: 4935px;
+    width: 100%;
+}
+.clients_container{
+    display: flex;
+}
+
+.clients-title{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+.clients-text{
+    text-align: center;
+    color: white;
+    opacity: 0.6;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 20px;
+}
+.clients__image{
+padding-left: 300px;
+max-width: 400px;
+padding-bottom: 30px;
+}
+
+.page__portfolio2{
+    position: absolute;
+    top:5910px;
+    background-color: #313030bb;
+    width: 100%;
+}
+
+.portfolio-2{
+    padding:45px 100px 50px 100px;
+}
+
+.footer{
+    position: absolute;
+    top: 6850px;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+.footer-body{
+    justify-content: end;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    margin-left: 100px;
+    display: flex;
+}
+.IP{
+    margin-right: 42px;
+    text-shadow: -1px 0 rgb(12, 10, 10), 0 1px rgb(12, 10, 10), 1px 0 rgb(12, 10, 10), 0 -1px rgb(12, 10, 10);
+}
+.menu__link{
+    position: relative;
+}
+.menu__link::after{
+    display: block;
+    position: absolute;
+    content: "";
+    width: 0;
+    background-color: #8D7370;
+    height: 2px;
+    transition: 0.3s ease;
+    left: 0;
+}
+.menu__link:hover::after{
+    width: 100%;
+}
